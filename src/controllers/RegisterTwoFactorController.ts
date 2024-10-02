@@ -5,7 +5,7 @@ import { users } from './CreateUserController';
 
 const SERVICE = 'Omnichat';
 
-class RegisterTwoAndFactorController {
+class RegisterTwoFactorController {
   constructor() {}
 
   public async handle(request: Request, response: Response) {
@@ -36,4 +36,4 @@ class RegisterTwoAndFactorController {
   }
 }
 
-export { RegisterTwoAndFactorController };
+export { RegisterTwoFactorController };
